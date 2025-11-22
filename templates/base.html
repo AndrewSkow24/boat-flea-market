@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+    <head>
+        <title>
+            {% block title %}
+            {% endblock %}
+        </title>
+    </head>
+
+    {% include 'includes/head.html' %}
+
+    <body>
+        {% include 'includes/top.html' %}
+
+
+        <div class="container py-3">
+            {% include 'includes/header.html' %}
+            <main>
+                {% block content %}
+                {% endblock %}
+
+
+            </main>
+            {% include 'includes/footer.html' %}
+        </div>
+        <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" class="astro-vvvwv3sm"></script>
+    </body>
+</html>
