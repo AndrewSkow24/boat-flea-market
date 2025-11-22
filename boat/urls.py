@@ -1,6 +1,7 @@
 from django.urls import path
 from .apps import BoatConfig
+from . import views
 
 app_name = BoatConfig.name
 
-urlpatterns = []
+urlpatterns = [path("", views.BoatListView.as_view(), name="boat_list")]
