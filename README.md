@@ -17,15 +17,14 @@
 
 ## Оформление
 
-UIKit
+https://getbootstrap.com
 
 ## Настройки для почты
 
 ```
-
 EMAIL_HOST=smtp.yandex.ru
 EMAIL_PORT=465
-EMAIL_HOST_USER=noreply@oscarbot.ru
-EMAIL_HOST_PASSWORD=AsTSNVv7pun9
+EMAIL_HOST_USER=
+EMAIL_HOST_PASSWORD=
 EMAIL_USE_SSL=True
 ```
